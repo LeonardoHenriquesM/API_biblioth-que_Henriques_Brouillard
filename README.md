@@ -1,6 +1,6 @@
 # TP_SpringBoot_Henriques_Brouillard (tp.leothy.springboot)
 
-## pour lancer l'appli (je rapelle même si vous le savez déjà)
+## pour lancer l'appli
 
 ```bash
 mvn spring-boot:run
