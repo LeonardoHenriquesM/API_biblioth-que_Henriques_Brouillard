@@ -1,4 +1,4 @@
-# explications @ pour prof
+# Explication des annotions pour le proffesseur comme demandé dans la consigne
 
 ## spring boot et config
 
