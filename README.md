@@ -1,15 +1,29 @@
 # TP_SpringBoot_Henriques_Brouillard (tp.leothy.springboot)
 
-## pour lancer l'appli
+#  API de Gestion de Bibliothèque (Spring Boot)
 
-```bash
-mvn spring-boot:run
-```
+Projet backend développé pour approfondir la maîtrise des architectures RESTful et des standards du développement Java en entreprise.
 
-- API : `http://localhost:8080`
-- Swagger UI : `http://localhost:8080/swagger-ui.html`
-- Console H2 : `http://localhost:8080/h2-console`  
-  (JDBC URL : `jdbc:h2:mem:bibliotheque-db`)
+##  Stack Technique
+* **Framework** : Spring Boot
+* **Langage** : Java
+* **Base de données** : H2 (en mémoire pour le développement)
+* **Outillage** : 
+    * **Lombok** (pour réduire le code répétitif/boilerplate)
+    * **Swagger/OpenAPI** (pour une documentation API interactive)
+* **Build** : Maven
+
+##  Fonctionnalités clés
+* **CRUD Complet** : Gestion intégrale des entités Auteurs et Livres.
+* **Recherche & Filtrage** : Filtrage dynamique (titre, catégorie, année) avec pagination et tri optimisés pour la performance.
+* **Statistiques** : Analyse des données (top auteurs, répartition par catégorie).
+* **Sécurité** : Protection des endpoints sensibles par clé API personnalisable.
+
+##  Installation et Lancement
+1. Cloner le projet : `git clone [URL_DU_REPO]`
+2. Lancer l'application : `mvn spring-boot:run`
+3. Accéder à l'API : `http://localhost:8080`
+4. Documentation interactive (Swagger UI) : `http://localhost:8080/swagger-ui.html`
 
 ## les endpoints
 
